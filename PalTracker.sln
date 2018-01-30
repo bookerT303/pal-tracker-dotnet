@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
@@ -10,6 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A441A422-67AC-4531-A5BA-198157357F19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalTracker", "src\PalTracker\PalTracker.csproj", "{3CF12AB1-E766-4D32-B896-744F85488FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "databases", "databases", "{D2B9E0B2-8755-4218-A46A-4440AB7FD467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tracker", "tracker", "{0712899E-EFD3-4416-BB01-4F6AC1F61E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +56,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{84A9A9FB-6E44-4FC5-A9A5-B5A20FCD4796} = {707AE841-4242-425E-90BD-654A23FC47B4}
 		{3CF12AB1-E766-4D32-B896-744F85488FB4} = {A441A422-67AC-4531-A5BA-198157357F19}
+		{0712899E-EFD3-4416-BB01-4F6AC1F61E0B} = {D2B9E0B2-8755-4218-A46A-4440AB7FD467}
 	EndGlobalSection
 EndGlobal
