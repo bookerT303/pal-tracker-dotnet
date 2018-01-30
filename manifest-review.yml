@@ -4,5 +4,7 @@ applications:
   buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack#v2.0.1
   path: src/PalTracker/bin/Release/netcoreapp2.0/publish/
   host: bcd-pal-tracker-review
+  services:
+  - tracker-database
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry Review
