@@ -17,6 +17,9 @@ namespace PalTrackerTests
 
         public TimeEntryIntegrationTest()
         {
+            Environment.SetEnvironmentVariable("VCAP_SERVICES", DbTestSupport.TestDbVcapJson);
+            DbTestSupport.ExecuteSql("TRUNCATE TABLE time_entries");
+
             _testClient = IntegrationTestServer.Start().CreateClient();
         }
 
