@@ -30,3 +30,11 @@ msbuild.wrn
 .vscode
 
 ci/variables.yml
+
+authorized_worker_keys
+host_key
+host_key.pub
+session_signing_key
+session_signing_key.pub
+worker_key
+worker_key.pub
