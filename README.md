@@ -6,6 +6,10 @@
 1. follow all steps on http://concourse.ci/docker-repository.html to start concourse
     look at the example docker-compose.yml and remember to change the "changeme"
 
+### restarting conconcourse
+1. export CONCOURSE_EXTERNAL_URL=http://<ip address (not localhost)>:8080
+1. docker-compose up
+
 ## Setting up Minio
     minio provides an s3 bucket for storing the artifacts
 1. brew install minio/stable/minio
