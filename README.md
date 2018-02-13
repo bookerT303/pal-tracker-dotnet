@@ -15,5 +15,5 @@
 1. brew install minio/stable/minio
 1. cd ~/workspace/concourse-docker
 1. mkdir -p shared/artifacts
-1. minio server shared
+1. minio server shared<BR>
     It will print out your access keys and secret
