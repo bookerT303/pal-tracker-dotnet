@@ -4,7 +4,7 @@ resources:
   type: git
   source:
     uri: {{github-repository}}
-    branch: solution
+    branch: master
     private_key: {{github-private-key}}
 
 - name: pal-tracker-artifacts
